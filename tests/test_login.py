@@ -2,6 +2,7 @@ from pages.login_page import LoginPage
 
 
 def test_login(browser):
+    print('okokokok')
     login_page = LoginPage(browser)
     login_page.go_to_page('https://www.saucedemo.com')
 
